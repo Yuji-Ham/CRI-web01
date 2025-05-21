@@ -21,11 +21,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 img,
 picture,
 video,
@@ -65,21 +60,22 @@ html {
 body {
   background-color: #000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  line-height: 1.7;
-  color: #fff;
 }
 
 img {
 	max-width: 100%;
 }
 
-/*ヘッダー*/
+/* 共通 */
 .cover{
   background-size: cover;
   background-position: center top;
   height: 600px;
+  line-height: 1.7;
+  color: #fff;
 }
 
+/* ヘッダー */
 .cover-header{
   background-image: url(../img/kv.jpg);
 }
@@ -102,7 +98,7 @@ img {
   margin: 1.5rem 27rem 0 0; /*「ご予約」の幅を右で無理やり調整*/
 }
 
-.align {
+.main-button {
   display: inline-block;
 	text-align: right;
   font-size: .75rem;
@@ -110,17 +106,31 @@ img {
   color: #fff;
 }
 
-.btn-reseve{
+.button-reseve{
   background-color: #78781E;
   padding: .5rem 1rem;
   margin-right: .5rem;
 }
 
-.btn-calendar{
+.button-calendar{
   border: solid 1.5px #fff;
 	background-color: none;
   padding: .5rem .25rem;
 }
+
+/* メイン */
+.main-cover{
+  background-image: url(../img/main_bg.jpg);
+  padding-top: 2rem;            /* h1の上部の余白 */
+}
+
+.main-h1{
+  writing-mode: vertical-rl;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 /* 
 CSSは各要素をデザインツール（figma）に沿って、
 サイズや余白を調整していきます。流れは口頭で説明できればと！
