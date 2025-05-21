@@ -66,16 +66,15 @@ img {
 	max-width: 100%;
 }
 
-/* 共通 */
+/* ヘッダー */
 .cover{
-  background-size: cover;
   background-position: center top;
+  background-size: cover;
   height: 600px;
   line-height: 1.7;
   color: #fff;
 }
 
-/* ヘッダー */
 .cover-header{
   background-image: url(../img/kv.jpg);
 }
@@ -106,30 +105,47 @@ img {
   color: #fff;
 }
 
-.button-reseve{
+.button-reseve {
   background-color: #78781E;
   padding: .5rem 1rem;
   margin-right: .5rem;
 }
 
-.button-calendar{
+.button-calendar {
   border: solid 1.5px #fff;
 	background-color: none;
   padding: .5rem .25rem;
 }
 
 /* メイン */
-.main-cover{
+.main-cover {
   background-image: url(../img/main_bg.jpg);
-  padding-top: 2rem;            /* h1の上部の余白 */
+  background-size: cover;
+  padding-top: 6rem;                           /* h1の上部の余白 */
+  color: #fff;
 }
 
-.main-h1{
-  writing-mode: vertical-rl;
+.main-h1 {
+  writing-mode: vertical-rl;          /* 縦書き */
   width: 100%;
   display: flex;
   align-items: center;
+  letter-spacing: 1.5rem;
 }
+
+.main-h2 {
+  padding: 4rem 0;
+  font-size: small;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.main-image {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 
 /* 
 CSSは各要素をデザインツール（figma）に沿って、
