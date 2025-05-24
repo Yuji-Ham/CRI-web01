@@ -43,7 +43,8 @@ a {
 }
 
 ul,
-ol {
+ol,
+li {
   list-style: none;
 }
 
@@ -59,7 +60,8 @@ html {
 
 body {
   background-color: #000;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
 
 img {
@@ -94,7 +96,7 @@ img {
   justify-content: center;
   gap: 2.5rem;
 	font-size: .75rem;
-  margin: 1.5rem 27rem 0 0; /*「ご予約」の幅を右で無理やり調整*/
+  margin: 1.5rem 0; /*「ご予約」の幅を右で無理やり調整*/
 }
 
 .main-button {
@@ -108,13 +110,14 @@ img {
 .button-reseve {
   background-color: #78781E;
   padding: .5rem 1rem;
-  margin-right: .5rem;
+  margin-left: 30rem;
 }
 
 .button-calendar {
   border: solid 1.5px #fff;
 	background-color: none;
   padding: .5rem .25rem;
+  margin-left: 1rem;
 }
 
 /* メイン */
@@ -144,6 +147,119 @@ img {
   width: 90%;
   margin: 0 auto;
 }
+
+.main-movie {
+  aspect-ratio: 16 / 9;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+/* お知らせ */
+.info {
+  background-color: #fff;
+  color: #000;
+  padding-top: 1rem;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.info-sub {
+  color: #828282;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.info_list {
+  margin: 3rem 10rem 0 10rem;
+}
+
+.info_list_item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.info_list_item:first-child {      /* 先頭（New＆Information下）の傍線 */
+  border-top: 1px solid #CCCCCC;
+}
+
+.info_list_item a {
+ display: flex;
+}
+
+.info_icon {
+  background: #78781E;
+  color: #FFFFFF;
+  text-align: center;
+  width: 7rem;
+  letter-spacing: .25rem;
+}
+
+.info_list_date {
+  color: #888888;
+  margin: 0 3rem;
+}
+
+.info_all {
+  color: #868686;
+  margin-left: 65rem;
+}
+
+/* プラン */
+
+.plan_main {
+  background-color: #E8E7E2;
+  color: #000;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.plan_main h2{
+  color: #828282;
+  font-size: 90%;
+  letter-spacing: .25rem;
+}
+
+.paln_info {
+  display: flex;
+  justify-content: center;
+  font-size: 80%;
+}
+
+.plan_detail {
+  background-color: #fff;
+  text-align: left;
+  margin: 3rem 1rem;
+  width: 30%;
+  padding-bottom: 3rem;
+}
+
+.plan_detail img {
+  width: 100%;
+}
+
+.plan_title {
+  color: #78781E;
+}
+
+.plan_main h3{
+  color: #78781E;
+  padding: 1rem;
+  margin: 0 10rem;
+  border-bottom: 1px solid #000000;
+}
+
+.plan_main h4 {
+  margin-top: 3rem;
+}
+
+.plan_main h5 {
+  font-size: 70%;
+  text-align: left;
+  margin: 3rem 10rem;
+}
+
 
 
 
