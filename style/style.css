@@ -59,9 +59,7 @@ html {
 }
 
 body {
-  background-color: #000;
-  font-family: sans-serif;
-  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
@@ -82,7 +80,7 @@ img {
 }
 
 .main-logo {
-  margin: 0 5rem 0 2rem;  /*上、右、下、左*/
+  margin: 0 5rem 0 2rem;
 }
 
 .main-header{
@@ -96,7 +94,7 @@ img {
   justify-content: center;
   gap: 2.5rem;
 	font-size: .75rem;
-  margin: 1.5rem 0; /*「ご予約」の幅を右で無理やり調整*/
+  margin: 1.5rem 0;
 }
 
 .main-button {
@@ -110,6 +108,7 @@ img {
 .button-reseve {
   background-color: #78781E;
   padding: .5rem 1rem;
+  margin-right: .5rem;
   margin-left: 30rem;
 }
 
@@ -204,10 +203,10 @@ img {
 .info_all {
   color: #868686;
   margin-left: 65rem;
+  padding-bottom: 5rem;
 }
 
 /* プラン */
-
 .plan_main {
   background-color: #E8E7E2;
   color: #000;
@@ -241,6 +240,8 @@ img {
 
 .plan_title {
   color: #78781E;
+  letter-spacing: .05rem;
+  margin-bottom: 0.5rem;
 }
 
 .plan_main h3{
@@ -251,16 +252,84 @@ img {
 }
 
 .plan_main h4 {
+  font-size: 90%;
   margin-top: 3rem;
 }
 
 .plan_main h5 {
-  font-size: 70%;
+  font-size: 65%;
   text-align: left;
-  margin: 3rem 10rem;
+  margin: 3rem 27rem;
 }
 
+/* リンク */
+.link_footer {
+  background-color: #FFFFFF;
+}
 
+.link {
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10rem;
+  margin: 1rem 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.link h2 {
+  font-size: 70%;
+  letter-spacing: .25rem;
+}
+
+.link h3 {
+  margin-top: 3rem;
+}
+.nature {
+  background-image: url(../img/nature.jpg);
+}
+
+.room {
+  background-image: url(../img/room.jpg);
+}
+
+.food {
+  background-image: url(../img/food.jpg);
+}
+
+.onsen {
+  background-image: url(../img/onsen.jpg);
+}
+
+.map {
+  position: relative;
+	width: 100%;
+  padding-top: 50%;
+}
+
+.map iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70%;
+}
+
+.button_a {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.access {
+  background-color: #BBBBBB;
+}
+
+.googlemap {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
 
 
 /* 
