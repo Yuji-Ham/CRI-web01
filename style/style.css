@@ -150,7 +150,7 @@ img {
   width: 100%;
   max-width: 350px;
   text-align: center;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
 }
 
 .main_Movie iframe {
@@ -335,7 +335,7 @@ img {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  margin: 15px 0;
 }
 
 .access {
@@ -349,6 +349,54 @@ img {
   padding: 19.5px 56px;
 }
 
+.footer{
+  margin: 164px 77px 162px 104px
+}
+
+.footer_Image {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_Logo {
+  font-size: 14px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.footer_Nav {
+  color: #222222;
+  font-size: 14px;
+}
+
+.footer_Nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer_Nav li {
+  border-right: solid 1px #dddddd;
+  padding: 0 40px;
+}
+
+.footer_Nav li:last-child {
+  border-right: none; /* 右側の線を消す */
+}
+
+.footer_Link {
+  display: flex;
+  margin-top: 55px;
+}
+
+.footer_Link a {
+  margin-left: 20px;
+}
+
+.copyRight {
+  text-align: center;
+  margin-top: 65px;
+}
 /* 
 CSSは各要素をデザインツール（figma）に沿って、
 サイズや余白を調整していきます。流れは口頭で説明できればと！
